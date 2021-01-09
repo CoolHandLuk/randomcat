@@ -42,7 +42,7 @@ body {
   display: block;
   margin: 0 auto;
   padding: 10px 50px;
-  background-color: #0c00bd;
+  background-color: #2b1ee9;
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -50,5 +50,16 @@ body {
 
 .btn:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+  .result {
+    height: 300px;
+    width: 200px;
+  }
+  .btn {
+    font-size: 10px;
+    max-width: 200px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
